@@ -2,7 +2,6 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-
 import authRoutes from "./routes/auth.route.js";
 import resumeRoutes from "./routes/resume.route.js";
 import interviewRoutes from "./routes/interview.route.js";
